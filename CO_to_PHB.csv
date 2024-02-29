@@ -1,0 +1,21 @@
+Reaction Formula,Relative Flux,Reaction Name
+CO + ADP + Pi <=> H2 + CO2 + ATP ,9,CODH_pump
+H2 + NAD <=> NADH ,9,Hydrogenase
+ATP + Ri5P <=> PRibPP + AMP ,4,R5PK
+ADP + PRibPP <=> ATP + RiBP ,4,RiBPK
+RiBP <=> RuBP ,4,RiBPiso
+CO2 + RuBP + H2O <=> 2 P3G ,4,RbuCO
+ATP + P3G <=> ADP + BPG ,8,PGK
+NADH + BPG <=> Pi + NAD + G3P ,8,GAPDH
+G3P <=> DHAP ,4,TPI
+G3P + DHAP <=> FBP ,4,FBPald
+AMP + FBP <=> ADP + F6P ,4,ADPPFK
+F6P + E4P <=> G3P + S7P ,2,TALA
+G3P + S7P <=> Ri5P + X5P ,2,Tkt
+Ru5P <=> Ri5P ,2,RibI
+X5P <=> Ru5P ,2,RibE
+Pi + F6P <=> H2O + E4P + AcP ,2,PKT
+AcP + CoA <=> Pi + AcCoA ,2,PTA
+2 AcCoA <=> CoA + AACoA ,1,Thio
+NADH + AACoA <=> NAD + HBCoA ,1,AAR
+HBCoA + HB <=> CoA + PHB ,1,PHBsyn
